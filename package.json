@@ -12,7 +12,6 @@
   "author": "zakaria elalaoui",
   "license": "MIT",
   "dependencies": {
-    "ziko": "^0.0.22",
-    "ziko-wrapper": "^0.0.15"
+    "ziko": "^0.0.22"
   }
 }

@@ -1,1 +1,5 @@
-import {DomWrapper} from "ziko-wrapper/dom/react";
+import {DomWrapper} from "ziko-wrapper/dom/react"
+const VanWrapper = DomWrapper;
+export{
+    VanWrapper
+}
