@@ -1,0 +1,8 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+}

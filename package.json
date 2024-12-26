@@ -6,12 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "exports": {
+    "./react": "./wrappers/react/index.js",
+    "./solid": "./wrappers/solid/index.js",
+    "./svelte": "./wrappers/svelte/index.js",
+    "./preact": "./wrappers/preact/index.js",
+    "./vue": "./wrappers/vue/index.js"
+  },
   "keywords": [
-    "vanjs"
+    "vanjs",
+    "zikojs"
   ],
   "author": "zakaria elalaoui",
   "license": "MIT",
   "dependencies": {
-    "ziko": "^0.0.22"
+    "ziko": "^0.0.22",
+    "ziko-wrapper": "^0.0.16"
   }
 }
