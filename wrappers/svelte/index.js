@@ -1,5 +1,1 @@
-import {DomWrapper} from "ziko-wrapper/dom/svelte"
-const VanWrapper = DomWrapper;
-export{
-    VanWrapper
-}
+export { default as VanWrapper } from './van-wrapper.svelte';
