@@ -1,1 +1,1 @@
-export { default as VanWrapper } from './van-wrapper.svelte';
+export { default as VanWrapper } from './van-wrapper.vue';
