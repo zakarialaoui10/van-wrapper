@@ -1,12 +1,67 @@
-# van-wrapper
+# Van-wrapper 
+Van-Wrapper is a tool that facilitates the rendering of VanJS elements within other frameworks.
 
-## JSX Based 
-### React
+## Integrate Vanjs inside Other Environment
 
-### Solid 
+## UI Decalaration
+```js
+// HelloFromVan.js
+import { VanWrapper } from "van-wrapper/vue";
+const {a, p, div} = van.tags
+const HelloFromVan = ({environement}) => div(
+  p(message, a({href: "https://vanjs.org/"}, "VanJS")),
+  p(
+    "This is a ",
+    a({href: "https://vanjs.org/"}, "VanJS "),
+    `Element Wrapped inside ${environement} App`
+  )
+)
+export default HelloFromVan
+```
 
-### Preact 
+### Use 
+#### JSX Based
 
-## Template Based
-# Svelte 
+```jsx
+import VanWrapper from "van-wrapper/react"
+// import VanWrapper from "van-wrapper/solid"
+// import VanWrapper from "van-wrapper/preact"
+import HelloFromVan from "./HelloFromVan.js"
+const environement = "React" // It's only a message 
+export default function App(){
+    return (
+        <VanWrapper>
+           <HelloFromVan 
+              environement={environement} 
+            />
+        </VanWrapper>
+    )
+ }
+```
 
+#### Vue
+```xml
+<script>
+import VanWrapper from "van-wrapper/vue"
+import HelloFromVan from "./HelloFromVan.js"
+</script>
+<template>
+    <VanWrapper>
+           <HelloFromVan 
+              environement="Vue"  
+            />
+    </VanWrapper>
+</template>
+``` 
+#### Svelte 
+```jsx
+---
+import VanWrapper from "van-wrapper/svelte";
+import HelloFromVan from "./HelloFromVan.js"
+---
+<VanWrapper ui={HelloFromVan({environement:"Svelte"})}/>
+```
+
+# License 
+This projet is licensed under the terms of MIT License 
+<img src="https://img.shields.io/github/license/zakarialaoui10/zikojs?color=rgb%2820%2C21%2C169%29" width="100" align="right">
