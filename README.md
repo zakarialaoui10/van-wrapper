@@ -1,9 +1,9 @@
 # Van-wrapper 
-Van-Wrapper is a tool that facilitates the rendering of VanJS elements within other frameworks.
+Van-Wrapper is a tool that facilitates the rendering of VanJS elements within other popular frameworks.
 
 ## Integrate Vanjs inside Other Environment
 
-## UI Decalaration
+### VanJS Component Decalaration
 ```js
 // HelloFromVan.js
 import { VanWrapper } from "van-wrapper/vue";
