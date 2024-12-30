@@ -1,6 +1,5 @@
-import {DomWrapper} from "ziko-wrapper/dom/react"
-import {ZikoWrapper} from "ziko-wrapper/react"
-const VanWrapper = DomWrapper;
+import {DomWrapper} from "ziko-wrapper/react"
+const VanWrapper=({children})=>DomWrapper({children, wrapper:"van-wrapper", engine:"vanjs"})
 export{
     VanWrapper
 }
