@@ -1,5 +1,4 @@
-import './App.css'
-import { VanWrapper } from "./van-wrapper.jsx";
+import { VanWrapper } from "van-wrapper/react";
 import Counter from './van-counter.js';
 
 function App() {
