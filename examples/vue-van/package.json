@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "van-wrapper": "^0.0.1",
     "vanjs-core": "^1.5.2",
     "vue": "^3.5.12"
   },
