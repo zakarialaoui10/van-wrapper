@@ -64,4 +64,4 @@ import HelloFromVan from "./HelloFromVan.js"
 
 # License 
 This projet is licensed under the terms of MIT License 
-<img src="https://img.shields.io/github/license/zakarialaoui10/zikojs?color=rgb%2820%2C21%2C169%29" width="100" align="right">
+<img src="https://img.shields.io/github/license/zakarialaoui10/van-wrapper?color=rgb%2820%2C21%2C169%29" width="100" align="right">
