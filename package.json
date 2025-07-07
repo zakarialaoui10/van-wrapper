@@ -1,12 +1,13 @@
 {
   "name": "van-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "exports": {
+    "./ziko": "./wrappers/react/index.js",
     "./react": "./wrappers/react/index.js",
     "./solid": "./wrappers/solid/index.js",
     "./svelte": "./wrappers/svelte/index.js",
@@ -20,6 +21,6 @@
   "author": "zakaria elalaoui",
   "license": "MIT",
   "dependencies": {
-    "ziko-wrapper": "^0.0.18"
+    "ziko-wrapper": "^0.0.23"
   }
 }
